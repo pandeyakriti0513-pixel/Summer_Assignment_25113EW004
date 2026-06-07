@@ -17,7 +17,7 @@ int main(){
         if(num%i==0){
             sum+=i;
             if(num/i!=i && (num/i)!=original_num){
-                sum+=i;
+                sum+=num/i;
             }
         }
     }
