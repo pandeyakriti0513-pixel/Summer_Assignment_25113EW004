@@ -1,5 +1,4 @@
 //Q. Write a program to recursive fibonacci//
-//First 10 terms of a fibonacci series are: 0,1,1,2,3,5,8,13,21,34//
 #include<stdio.h>
 int fibonacci(int n){
     if(n==0){
@@ -20,3 +19,5 @@ int main(){
     }
     return 0;
 }
+
+//Functional recursion is used to solve this problem//
